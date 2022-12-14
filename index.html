@@ -1,3 +1,11 @@
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+      "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js"
+    }
+  }
+</script>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -7,14 +15,6 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
-    <script type="importmap">
-      {
-          "imports": {
-              "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
-              "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js"
-          }
-      }
-  </script>
   </head>
   <body>
     <header class="header">
@@ -22,7 +22,9 @@
         <nav class="navbar">
           <ul class="navbar__list">
             <li class="list__item">
-              <a href="#about" class="list__link">&lt;a&gt; about me &lt;/a&gt; </a>
+              <a href="#about" class="list__link"
+                >&lt;a&gt; about me &lt;/a&gt;
+              </a>
             </li>
             <li class="list__item">
               <a href="" class="list__link">&lt;a&gt; exprience &lt;/a&gt; </a>
@@ -74,18 +76,19 @@
         <h2 class="about-me__title">&lt;a&gt; about me &lt;/a&gt;</h2>
         <p class="about-me__text">
           Hello! My name is Denis and I really enjoy surf the net. Also I learn
-          web development. &lt;br&gt; <br> There are some technologies that I'm learning:
+          web development. &lt;br&gt; <br />
+          There are some technologies that I'm learning:
         </p>
         <div class="box">
           <div class="column">
-            <div class="row"> >HTML</div>
-            <div class="row"> >CSS</div>
-            <div class="row"> >SASS</div>
+            <div class="row">>HTML</div>
+            <div class="row">>CSS</div>
+            <div class="row">>SASS</div>
           </div>
           <div class="column">
-            <div class="row"> >JavaScript</div>
-            <div class="row"> >Node.js</div>
-            <div class="row"> >GitHub</div>
+            <div class="row">>JavaScript</div>
+            <div class="row">>Node.js</div>
+            <div class="row">>GitHub</div>
           </div>
         </div>
       </section>
